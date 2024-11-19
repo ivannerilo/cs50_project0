@@ -10,18 +10,38 @@
     <body>
         <div class="navbar">
             <a class="nav_item" href="index.html">
-                <img src="images/search.png">
+                <img class="image" src="images/search.png">
             </a>
             <a class="nav_item" href="image_search.html">
-                <img src="images/7123028_lens_google_icon.png">
+                <img class="image" src="images/7123028_lens_google_icon.png">
             </a>
-            <img src="images/show-apps-button.png">
+            <img class="image" src="images/show-apps-button.png">
         </div>
-        <img style="margin-top: 125px;"    src="images/diabogoogle-removebg-preview.png">
-        <div class="container">
-            <form action="https://www.google.com/search">
-                <input id="bar" class="search_bar" type="search" name="q" placeholder="Search: "> 
-                <input class="search_button" type="submit" value="Google Search">
+        <img src="images/diabogoogle-removebg-preview.png">
+
+        <div class="as_div">
+            <form action="https://www.google.com/advanced_search">
+                <div class="as_div2" style="background-color: blue;">
+                    <span class="as_label" >Find pages with all these words: </span>
+                    <span class="as_label" >Find pages with… “this exact word or phrase:”</span>
+                    <span class="as_label" >Find pages with… “any of these words:”</span>
+                    <span class="as_label" >Find pages with… “none of these words:”</span>
+                </div>
+
+                <div class="as_div2" style="background-color: green;">
+                    <input class="as_bar" type="search" name="as_q">
+                    <input class="as_bar" type="search" name="as_epq">
+                    <input class="as_bar" type="search" name="as_oq"> 
+                    <input class="as_bar" type="search" name="as_eq">
+                    <input class="as_bar" type="submit" value="Google Search">
+                </div>
+
+                <div class="as_div2" style="background-color: red;">
+                    <span class="as_label" >Write the important words: tricolor rat terrier</span>
+                    <span class="as_label" >Put the exact words in quotation marks: "rat terrier"</span>
+                    <span class="as_label" >Write OR between all desired words: thumbnail standard OR</span>
+                    <span class="as_label" >Place a minus sign immediately before unintended words: -rodent, - "Jack Russell"</span>
+                </div>
             </form>
         </div>
     </body>

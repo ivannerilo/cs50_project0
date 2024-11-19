@@ -63,6 +63,51 @@ body {
     text-decoration: none;
 }
 
+.image{
+    border-radius: 50%;
+}
+
+.image:hover{
+    background-color: rgb(101, 101, 101);
+
+}
+
+.as_heading{
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.as_div{
+    justify-self: center;
+    width: 87%;
+    background-color: white;
+    display: flex; /* Define que os elementos dentro da div container serão dispostos em linha */
+    justify-content: space-between; /* Espaçamento entre as divs */
+    flex-direction: row;
+}
+
+.as_div2{
+    flex: 1; /* Faz com que cada div ocupe o mesmo espaço */
+    margin: 10px; /* Espaçamento entre as divs */
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    flex-direction: row;
+}
+
+.as_bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.as_label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
 
 
 
