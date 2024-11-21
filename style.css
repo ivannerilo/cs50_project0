@@ -80,19 +80,26 @@ body {
 .as_div{
     justify-self: center;
     width: 87%;
-    background-color: white;
-    display: flex; /* Define que os elementos dentro da div container serão dispostos em linha */
-    justify-content: space-between; /* Espaçamento entre as divs */
+    background-color: rgb(60, 60, 60);
+    display: flex;
+    justify-content: space-between;
     flex-direction: row;
 }
 
 .as_div2{
-    flex: 1; /* Faz com que cada div ocupe o mesmo espaço */
-    margin: 10px; /* Espaçamento entre as divs */
-    padding: 20px;
-    border: 1px solid #ccc;
+    margin: 0px;
+    padding: 0px;
+    width: 40%;
     text-align: center;
     flex-direction: row;
+    background-color: rgb(60, 60, 60);
+}
+
+.as_div3{
+    width: 30%;
+    text-align: center;
+    flex-direction: row;
+    background-color: rgb(60, 60, 60);
 }
 
 .as_bar{
@@ -100,16 +107,22 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    margin: 10px;
+    width: 95%;
+    height: 35px;
+    border-color: grey;
+    background-color: rgb(60, 60, 60);
+    border-style: ridge;
+    color: grey;
 }
 
 .as_label{
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    margin: 24px 0;
+    width: 95%;
+    font-size: 15px;
+    color: rgb(101, 101, 101);
 }
-
-
-
-
-
